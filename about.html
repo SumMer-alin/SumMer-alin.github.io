@@ -1,0 +1,212 @@
+<!doctype html>
+<!DOCTYPE html>
+<html class="theme-next mist use-motion" lang="zh-Hans">
+
+	<head>
+		<meta charset="utf-8">
+		<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<script type="text/javascript" id="hexo.configurations">
+			var NexT = window.NexT || {};
+			var CONFIG = {
+				root: '/',
+				scheme: 'Mist',
+				sidebar: {
+					"position": "right",
+					"display": "post"
+				},
+				fancybox: true,
+				motion: true,
+				duoshuo: {
+					userId: 'undefined',
+					author: '博主'
+				},
+				algolia: {
+					applicationID: '',
+					apiKey: '',
+					indexName: '',
+					hits: {
+						"per_page": 10
+					},
+					labels: {
+						"input_placeholder": "Search for Posts",
+						"hits_empty": "We didn't find any results for the search: ${query}",
+						"hits_stats": "${hits} results found in ${time} ms"
+					}
+				}
+			};
+		</script>
+
+		<style>
+			.pace .pace-progress {
+				background: #1E92FB;
+				/*进度条颜色*/
+				height: 3px;
+			}
+			
+			.pace .pace-progress-inner {
+				box-shadow: 0 0 10px #1E92FB, 0 0 5px #1E92FB;
+				/*阴影颜色*/
+			}
+			
+			.pace .pace-activity {
+				border-top-color: #1E92FB;
+				/*上边框颜色*/
+				border-left-color: #1E92FB;
+				/*左边框颜色*/
+			}
+		</style>
+
+		<title>
+
+			 SumMer
+
+		</title>
+
+		<div class="container one-collumn sidebar-position-right  ">
+			<div class="headband"></div>
+
+			<header id="header" class="header" itemscope="" >
+				<div class="header-inner">
+					<div class="site-meta custom-logo">
+
+						<div class="custom-logo-site-title">
+							<a href="/" class="brand" rel="start">
+								<span class="site-title">SumMer</span>
+							</a>
+						</div>
+
+						<h1 class="site-subtitle" itemprop="description"></h1>
+
+					</div>
+
+					<nav class="site-nav">
+
+						<ul id="menu" class="menu">
+
+							<li class="menu-item menu-item-home">
+								<a href="index.html" rel="section">
+
+									<i class="menu-item-icon fa fa-fw fa-home"></i> <br> 首页
+								</a>
+							</li>
+
+							<li class="menu-item menu-item-categories">
+								<a href="demo.html" rel="section">
+
+									<i class="menu-item-icon fa fa-fw fa-th"></i> <br> 项目
+								</a>
+							</li>
+
+							<li class="menu-item menu-item-archives">
+								<a href="process.html" rel="section">
+
+									<i class="menu-item-icon fa fa-fw fa-archive"></i> <br>经历
+								</a>
+							</li>
+
+							<li class="menu-item menu-item-tags">
+								<a href="news.html" rel="section">
+
+									<i class="menu-item-icon fa fa-fw fa-tags"></i> <br> 标签
+								</a>
+							</li>
+
+							<li class="menu-item menu-item-about">
+								<a href="about.html" rel="section">
+
+									<i class="menu-item-icon fa fa-fw fa-user"></i> <br> 关于
+								</a>
+							</li>
+
+						</ul>
+
+					</nav>
+
+				</div>
+			</header>
+
+		
+				
+			<main id="main" class="main">
+				<div class="main-inner">
+					<div class="content-wrap">
+						<div id="content" class="content">
+
+							<div id="posts" class="posts-expand">
+
+							<ul>
+								<h4>关于我的</h4>
+								<li>
+									最喜欢的颜色：鹅黄
+								</li>
+								<li>
+									最喜欢的作者：玛格丽特·米切尔(主要是因为《飘》这本书)
+								</li>
+								<li>
+									最喜欢吃的：妈妈做的汤、爸爸做的鱼、爷爷做的糖醋小排、奶奶酿的米酒
+								</li>
+								<li>
+									最喜欢的明星：当然是我们的神仙姐姐刘亦菲
+								</li>
+							
+									
+									
+							
+							</ul>
+							
+							</div>
+
+						</div>
+
+					</div>
+		
+				</div>
+			</main>
+
+			
+
+				<footer id="footer" class="footer">
+				<div class="footer-inner">
+					<div class="copyright">
+						<span itemprop="copyrightYear">快来联系我</span>
+						<span class="with-love">
+  			  <i class="fa fa-heart"></i>
+ 						 </span>
+						<span class="author" itemprop="copyrightHolder">SumMer</span> <a href="#" style="margin-left: 20px;">微信：15586786627</a>
+					</div>
+
+				</div>
+			</footer>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/fastclick.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+
+		<script type="text/javascript" src="js/velocity.min.js"></script>
+
+		<script type="text/javascript" src="js/velocity.ui.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+		<script type="text/javascript" src="js/utils.js"></script>
+
+		<script type="text/javascript" src="js/motion.js"></script>
+
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+
+		<!-- UY BEGIN -->
+		<script type="text/javascript" src="js/uyan.js"></script>
+
+		<!-- 页面点击小红心 -->
+		<script type="text/javascript" src="js/love.js"></script>
+
+		</body>
+
+</html>
